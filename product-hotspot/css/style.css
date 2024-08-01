@@ -1403,6 +1403,21 @@ section{padding: 0;}
     height: 80% !important;
     width: 80% !important;
 }
+.price-container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.original-price {
+    text-decoration: line-through;
+    color: #888;
+    font-size: 1.2em;
+}
+.promo-price {
+    color: #d9534f;
+    font-size: 1.5em;
+    font-weight: bold;
+}
 
 @keyframes animation {
     0% {
